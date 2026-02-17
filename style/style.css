@@ -25,3 +25,18 @@
     top: -27px;
     left: 27px;
 }
+
+/* Trending Area style */
+
+.trending-item-img{
+        background-color: #e5e7eb;
+}
+.trending-item-img img{
+    width: 170px;
+    height: 250px;
+    background-color: e5e7eb;
+}
+
+.trending-item-text{
+    border: 1px solid #ccc;
+}

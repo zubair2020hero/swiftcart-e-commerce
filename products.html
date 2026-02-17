@@ -25,8 +25,8 @@
 <body class="font-poppins">
 
     <!-- Header Area Start -->
-    <header>
-        <div class="navbar bg-base-100 shadow-sm">
+    <header class="container mx-auto">
+        <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -38,21 +38,14 @@
                     <!-- mobile menu area -->
                     <ul tabindex="-1"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-slate-500 font-semibold">
-                        <li><a>Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="products.html">Products</a></li>
                         <li><a>About</a></li>
                         <li><a>Contact</a></li>
-                        <!-- <li>
-                            <a>Parent</a>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li> -->
                     </ul>
                 </div>
                 <!-- logo -->
-                <a class="btn btn-ghost text-xl text-violet-500 font-bold">SwiftCart</a>
+                <a href="index.html" class="btn btn-ghost text-xl text-violet-500 font-bold">SwiftCart</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1 text-slate-500 font-semibold">
@@ -60,15 +53,6 @@
                     <li><a href="products.html">Products</a></li>
                     <li><a>About</a></li>
                     <li><a>Contact</a></li>
-                    <!-- <li>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul class="p-2 bg-base-100 w-40 z-1">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li> -->
                 </ul>
             </div>
             <div class="navbar-end">
@@ -98,12 +82,137 @@
     </header>
     <!-- Header Area End -->
 
-  
+    <!-- Products Area Start -->
+    <section>
 
-  
+    </section>
+    <!-- Products Area End -->
 
-    <!-- Demo Area Start -->
-    <!-- Demo Area End -->
+
+
+    <!-- Trending Area Start -->
+    <section>
+        <div class="container mx-auto pt-24 pb-24">
+            <div class="trending-title pb-11">
+                <h2 class="text-start text-3xl font-bold">Trending Now</h2>
+            </div>
+            <div class="trending-items container mx-auto md:grid md:grid-cols-2 xl:grid-cols-3 gap-7">
+                <div class="trending-item rounded-md">
+                    <div class="trending-item-img grid justify-center p-5 rounded-t-lg">
+                        <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png" alt="">
+                    </div>
+                    <div class="trending-item-text p-7 rounded-b-lg">
+                        <div class="flex justify-between pb-5">
+                            <span class="py-1 px-2 bg-slate-400 rounded-3xl text-xs font-semibold text-sky-700">Men's
+                                Clothing</span>
+                            <span class="text-xs"><i class="fa-solid fa-star text-yellow-300"></i> 3.9 (120)</span>
+                        </div>
+                        <h5 class="font-medium pb-1">Fjallraven - Foldsack No. 1 Backpack, ...</h5>
+                        <h4 class="font-bold text-xl">$109.95</h4>
+                        <div class="pt-7 grid grid-cols-2 gap-2">
+                            <button class="btn btn-outline btn-primary px-13"><i class="fa-regular fa-eye"></i>
+                                Details</button>
+                            <button class="btn btn-outline btn-primary px-13"><i
+                                    class="fa-solid fa-cart-shopping"></i>Add</button>
+                        </div>
+                    </div>
+                </div> <!-- end -->
+                <div class="trending-item rounded-md">
+                    <div class="trending-item-img grid justify-center p-5 rounded-t-lg">
+                        <img src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png" alt="">
+                    </div>
+                    <div class="trending-item-text p-7 rounded-b-lg">
+                        <div class="flex justify-between pb-5">
+                            <span class="py-1 px-2 bg-slate-400 rounded-3xl text-xs font-semibold text-sky-700">Men's
+                                Clothing</span>
+                            <span class="text-xs"><i class="fa-solid fa-star text-yellow-300"></i> 3.9 (120)</span>
+                        </div>
+                        <h5 class="font-medium pb-1">Mens Casual Premium Slim Fit T-Shirts</h5>
+                        <h4 class="font-bold text-xl">$22.3</h4>
+                        <div class="pt-7 grid grid-cols-2 gap-2">
+                            <button class="btn btn-outline btn-primary px-13"><i class="fa-regular fa-eye"></i>
+                                Details</button>
+                            <button class="btn btn-outline btn-primary px-13"><i
+                                    class="fa-solid fa-cart-shopping"></i>Add</button>
+                        </div>
+                    </div>
+                </div> <!-- end -->
+                <div class="trending-item rounded-md">
+                    <div class="trending-item-img grid justify-center p-5 rounded-t-lg">
+                        <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png" alt="">
+                    </div>
+                    <div class="trending-item-text p-7 rounded-b-lg">
+                        <div class="flex justify-between pb-5">
+                            <span class="py-1 px-2 bg-slate-400 rounded-3xl text-xs font-semibold text-sky-700">Men's
+                                Clothing</span>
+                            <span class="text-xs"><i class="fa-solid fa-star text-yellow-300"></i> 3.9 (120)</span>
+                        </div>
+                        <h5 class="font-medium pb-1">Mens Cotton Jacket</h5>
+                        <h4 class="font-bold text-xl">$55.99</h4>
+                        <div class="pt-7 grid grid-cols-2 gap-2">
+                            <button class="btn btn-outline btn-primary px-13"><i class="fa-regular fa-eye"></i>
+                                Details</button>
+                            <button class="btn btn-outline btn-primary px-13"><i
+                                    class="fa-solid fa-cart-shopping"></i>Add</button>
+                        </div>
+                    </div>
+                </div> <!-- end -->
+            </div>
+        </div>
+    </section>
+    <!-- Trending Area End -->
+
+    <!-- Footer Area Start -->
+    <section class="bg-slate-900">
+        <footer class="footer sm:footer-horizontal text-white p-10">
+            <aside>
+                <a href="index.html" class="text-xl text-violet-500 font-bold">SwiftCart</a>
+                <p>
+                    Your one-stop shop for all your fashion <br> and lifestyle needs. Quality Products, fast <br>
+                    deliveryy, and excellent support.
+                </p>
+            </aside>
+            <nav>
+                <h6 class="footer-title">OUICK LINKS</h6>
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">Products</a>
+                <a class="link link-hover">About</a>
+                <a class="link link-hover">Contact</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">SUPPORT</h6>
+                <a class="link link-hover">FAQ</a>
+                <a class="link link-hover">Shipping</a>
+                <a class="link link-hover">Returns</a>
+                <a class="link link-hover">Privacy Policy</a>
+            </nav>
+            <form>
+                <h6 class="footer-title">SUBSCRIBE TO OUR NEWSLETTER</h6>
+                <fieldset class="w-80">
+                    <label>The latest news, articles, and resources, sent to your inbox weekly.</label>
+                    <div class="join mt-5">
+                        <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
+                        <button class="btn btn-primary join-item">Subscribe</button>
+                    </div>
+                </fieldset>
+            </form>
+        </footer>
+        <hr class="border border-t-white">
+        <div class="container text-white mx-auto md:flex md:justify-between py-5 text-center">
+            <div class="left">@ 2025 SwiftCart, Inc. All rights reserved.</div>
+            <div class="right mt-3 md:mt-0">
+                <div class="social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Area End -->
+
 
     <!-- my javaScript -->
     <script src="js/main.js"></script>
